@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="162dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="228dp"
+        android:onClick="OnClickBt1"
+        android:text="bt1" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="173dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="6dp"
+        android:onClick="OnClickBt2"
+        android:text="bt2" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="159dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="374dp"
+        android:onClick="OnClickBt3"
+        android:text="bt3" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="174dp"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="0dp"
+        android:onClick="OnClickBt4"
+        android:text="bt4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="330dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="57dp"
+        android:text="TextView"
+        android:textSize="36sp" />
+</RelativeLayout>
